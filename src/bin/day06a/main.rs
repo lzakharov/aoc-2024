@@ -32,7 +32,7 @@ fn main() {
         }
         let next = (next.0 as usize, next.1 as usize);
 
-        if map[next.0 ][next.1] == '#' {
+        if map[next.0][next.1] == '#' {
             direction = match direction {
                 (-1, 0) => (0, 1),
                 (0, 1) => (1, 0),
